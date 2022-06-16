@@ -39,7 +39,7 @@ body {
   .playerCount, .computerCount {
     margin: 0.5rem;
     text-align: center;
-    flex: 1;
+    /* flex: 1; */
   }
   
   .count {
