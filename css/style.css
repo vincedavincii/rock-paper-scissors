@@ -1,0 +1,142 @@
+body {
+    background: linear-gradient(to right, #65737b, rgb(70, 73, 72));
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ }
+
+ .container {
+   padding: 1rem;
+ }
+
+  .title {
+    color: #4ECCA3;
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 5px 0 #232931; 
+  }
+
+  .score { 
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 5px 270px ;
+      
+  }
+
+  .playerCount, .computerCount {
+    margin: 0.5rem;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .count {
+    font-size: 2rem;
+    color: #cc524e;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  
+  .move {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .roundsLeft {
+    font-size: 1rem;
+  }
+
+  .playOptions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 25px 200px;
+  } 
+
+  .playBtn {
+      background-color: #4ECCA3;
+      color: #c64e2d;
+      cursor: pointer;
+      border: transparent ;
+      border-radius: 8px;
+      font-size: 16px;
+      margin: 0.5rem;
+      padding: 0.5rem;
+      min-width: 160px;
+  }
+
+  .fa-solid {
+      margin-left: 4px;
+  }
+
+  .result{
+    color: azure;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    }
+
+  .refresh_dv {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+
+  }
+
+  .refresh {
+
+    background-color: #4ECCA3;
+      color: #c64e2d;
+      cursor: pointer;
+      border: transparent ;
+      border-radius: 8px;
+      display: none;
+      font-size: 16px;
+      margin: 0.5rem;
+      padding: 0.5rem;
+      min-width: 160px;
+      justify-content: center;
+
+}
+
+@media (max-width: 600px) {
+
+  .title{
+    font-size: 2.5rem;
+  }
+
+  .score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+  }
+
+  .playOptions {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+.playBtn {
+  margin: 10px;
+}
+
+}
+  
